@@ -1,0 +1,84 @@
+.layout {
+  display: flex;
+}
+
+.products-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #F9FAFF;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.products-header input {
+  padding: 8px;
+  width: 200px;
+}
+
+.add-button {
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.products-table th, .products-table td {
+  text-align: left;
+  padding: 12px;
+}
+
+.products-table tbody tr:nth-child(even) {
+  background-color: #f4f6fc;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.busy {
+  color: red;
+}
+.status.free {
+  color: blue;
+}
+.status.workin, .status.working {
+  color: green;
+}
+.status.on-vacation {
+  color: orange;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 5px;
+}

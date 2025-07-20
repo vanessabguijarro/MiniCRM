@@ -1,0 +1,11 @@
+@import './estilos/home.css';
+@import './estilos/invoices.css';
+@import './estilos/sidebar.css';
+@import './estilos/customers.css';
+@import './estilos/products.css';
+@import './estilos/users.css';
+@import './estilos/newCustomer.css';
+@import './estilos/newProduct.css';
+@import './estilos/newUser.css';
+@import './estilos/newInvoice.css';
+@import './estilos/general.css';

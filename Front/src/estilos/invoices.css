@@ -1,0 +1,98 @@
+.layout {
+  display: flex;
+}
+
+.invoices-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #F9FAFF;
+}
+
+.invoices-toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.invoices-toolbar input {
+  flex: 1;
+  padding: 8px;
+}
+
+.add-button {
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.invoices-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.invoices-filters button {
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.invoices-filters .selected {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.invoices-filters span {
+  display: block;
+  font-size: 12px;
+}
+
+.invoices-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.invoices-table th, .invoices-table td {
+  text-align: left;
+  padding: 12px;
+}
+
+.invoices-table tbody tr:nth-child(even) {
+  background-color: #f4f6fc;
+}
+
+.tag {
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.tag.invoiced {
+  background-color: #60a5fa;
+}
+.tag.paid {
+  background-color: #22c55e;
+}
+.tag.due-date {
+  background-color: #facc15;
+}
+.tag.overdue {
+  background-color: #ef4444;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 14px;
+}

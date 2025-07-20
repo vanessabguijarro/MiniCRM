@@ -1,0 +1,102 @@
+.layout {
+  display: flex;
+}
+
+.new-invoice-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #F9FAFF;
+}
+
+.invoice-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.field-group.right {
+  max-width: 300px;
+}
+
+.field-group input, .field-group select {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.invoice-table th, .invoice-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.add-service-btn {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.invoice-summary {
+  margin: 20px 0;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  width: fit-content;
+}
+
+.upload-box {
+  padding: 20px;
+  border: 2px dashed #ccc;
+  text-align: center;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.browse-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancel-btn {
+  background: none;
+  border: none;
+  color: #888;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.done-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}

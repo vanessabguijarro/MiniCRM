@@ -1,0 +1,84 @@
+.layout {
+  display: flex;
+}
+
+.users-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #F9FAFF;
+}
+
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.users-header input {
+  padding: 8px;
+  width: 200px;
+}
+
+.add-button {
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.users-table th, .users-table td {
+  text-align: left;
+  padding: 12px;
+}
+
+.users-table tbody tr:nth-child(even) {
+  background-color: #f4f6fc;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.busy {
+  color: red;
+}
+.status.free {
+  color: blue;
+}
+.status.workin, .status.working {
+  color: green;
+}
+.status.on-vacation {
+  color: orange;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 5px;
+}
