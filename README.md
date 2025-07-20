@@ -1,11 +1,16 @@
-# MiniCRM
-En este proyecto he intentado crear un pequeño CRM de gestión de facturación como muestra de los conocimientos que he adquirido en React+Vite, Typescript, BBDD, etc.
+# MiniCRM 📦
 
-# Enlace a Figma
-La idea planteada queda reflejada para que el cliente pueda visualizarla en el siguiente enlace:
-https://www.figma.com/design/x3CsPnaHPnHuL2h2webLlC/Xuntando-pezas
+Este proyecto es un **Mini CRM de gestión de facturación**, desarrollado como muestra de mis conocimientos en **React + Vite**, **TypeScript**, **Node.js**, **Express** y **SQLite**. Incluye funcionalidades completas para gestionar productos, clientes e invoices desde una interfaz moderna y funcional.
 
-# Estructura del proyecto
-Este proyecto se estructurará en 2 carpetas principales BACK y FRONT donde quedarán clasificadas las tareas de servidor y las carpetas visualizables, respectivamente.
+---
 
-# Explicación del funcionamiento del proyecto
+## 🎨 Diseño UI
+
+La idea planteada visualmente se puede consultar en Figma:
+
+👉 [Ver diseño en Figma](https://www.figma.com/design/x3CsPnaHPnHuL2h2webLlC/Xuntando-pezas)
+
+---
+
+## 📁 Estructura del Proyecto
+
